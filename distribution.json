@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Alderland-1.21.8",
+      "name": "Alderland (Minecraft 1.21.8)",
+      "description": "Alderland Running Minecraft 1.21.8 (Fabric v0.19.1)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.8",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.1",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1967512,
+            "MD5": "4a319fc1f3a8a9c354aad538858eadb1",
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/net/fabricmc/fabric-loader/0.19.1/fabric-loader-0.19.1.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.8-fabric-0.19.1",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "636f120932eac92f21b515edbb1b33bd",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/versions/1.21.8-fabric-0.19.1/1.21.8-fabric-0.19.1.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.1+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540025,
+                "MD5": "029143df2fceae74b8d606fba0b5605b",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.17.1+mixin.0.8.7/sponge-mixin-0.17.1+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.8",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 746437,
+                "MD5": "72c38e6c7d436b28b88f9a3a2369619d",
+                "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/repo/lib/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.blay09.mods:balm:21.8.10@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 527310,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/balm-fabric-1.21.8-21.8.10.jar",
+            "MD5": "6865f7012b91038a3c935f15b37ac2c2"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161634,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/caramelChat-mc1.21.6-fabric-1.2.2.jar",
+            "MD5": "2fc43edcc8d650709dd40c0a6e5147c9"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:19.0.147@jar",
+          "name": "Cloth Config v19",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1149126,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/cloth-config-19.0.147-fabric.jar",
+            "MD5": "374787e705220edb15af113964ce96d2"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.1-beta.1+1.21.6@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 994756,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/continuity-3.0.1-beta.1+1.21.6.jar",
+            "MD5": "57884176e646e10756b43b6ff0bdd4d9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cupboard:1.21.8-3.0@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23602,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/cupboard-1.21.8-3.0.jar",
+            "MD5": "05fae25395c90281c2f188400a23deef"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:21.8.5@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 98914,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/defaultoptions-fabric-1.21.8-21.8.5.jar",
+            "MD5": "3aacd0fbc287df768ef7652fc7bdd11f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.136.1+1.21.8@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2269700,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/fabric-api-0.136.1+1.21.8.jar",
+            "MD5": "85d76d57a7b5bb7043ea815133d2f6ba"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.6+mc1.21.8@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2742813,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/iris-fabric-1.9.6+mc1.21.8.jar",
+            "MD5": "64fdd8ffe47175923a1cfb6b0617867d"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.8-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3604336,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/journeymap-fabric-1.21.8-6.0.0-beta.52.jar",
+            "MD5": "02b8db23b0af3f75cb207213064dfe7d"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:15.0.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1087256,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/modmenu-15.0.2.jar",
+            "MD5": "0f70ab88677a7404dbc95798604c7833"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12185924,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/plasmovoice-fabric-1.21.6-2.1.8.jar",
+            "MD5": "ec3204b2d08193f388f73ae8fc8c0722"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.4+mc1.21.6@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81061,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/reeses-sodium-options-fabric-1.8.4+mc1.21.6.jar",
+            "MD5": "6256d2626c3a7252c681bdd7c992db46"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.8@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1621285,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/sodium-fabric-0.7.3+mc1.21.8.jar",
+            "MD5": "2e38db8afdf3a8d319658780b7f45501"
+          }
+        },
+        {
+          "id": "net.wimods.zoom:wi_zoom:1.7-MC1.21.8@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 150893,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/fabricmods/required/WI-Zoom-1.7-MC1.21.8.jar",
+            "MD5": "a9df998eaccc30456b3580846e11da39"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09p1.zip",
+          "name": "BSL_v8.2.09p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 953414,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/files/shaderpacks/BSL_v8.2.09p1.zip",
+            "MD5": "612496c6a0ae763bc996f860ca6e1f2e",
+            "path": "shaderpacks/BSL_v8.2.09p1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://raw.githubusercontent.com/jay6977/alderland-distro/main/servers/Alderland-1.21.8/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

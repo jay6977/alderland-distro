@@ -1,0 +1,31 @@
+{
+  "$schema": "file:///D:/helios/Alderland/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Alderland (Minecraft 1.21.8)",
+    "description": "Alderland Running Minecraft 1.21.8 (Fabric v0.19.1)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.19.1"
+  },
+  "untrackedFiles": [
+    {
+        "appliesTo": ["files"],
+        "patterns": [
+          "options.txt",
+          "config/*",
+          "config/**/*",
+          "servers.dat"
+        ]
+    }
+  ]
+}
