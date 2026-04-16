@@ -12,8 +12,8 @@
       "name": "Alderland (Minecraft 1.21.8)",
       "description": "Alderland Running Minecraft 1.21.8 (Fabric v0.19.1)",
       "icon": null,
-      "version": "1.0.1",
-      "address": "localhost:25565",
+      "version": "1.0.2",
+      "address": "kya6nx9ixmbc5f7it4z0cci5s2zyhhfvyq1j4glv8tlhj0xrnard889g.dreamcraft.kr:25565",
       "minecraftVersion": "1.21.8",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
